@@ -10,6 +10,7 @@ var server = net.createServer(function(socket) {
 
   socket.on('data', function(data) {
     log += data;
+    socket.end();
   });
 
   socket.on('end', function() {
