@@ -1,0 +1,30 @@
+{
+  "name": "tcp-server",
+  "version": "1.0.0",
+  "description": "tcp loggging server",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasimsiddiqui/tcp-server/"
+  },
+  "keywords": [
+    "logging",
+    "tcp",
+    "server"
+  ],
+  "author": "kasimsiddiqui@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.3.2",
+    "uuid": "^2.0.1"
+  }
+}
